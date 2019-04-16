@@ -1,0 +1,170 @@
+\begin{thebibliography}{29}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{{Ardizzone} et~al.(2018){Ardizzone}, {Kruse}, {Wirkert}, {Rahner},
+  {Pellegrini}, {Klessen}, {Maier-Hein}, {Rother}, and
+  {K{\"o}the}}]{Ardizzone2018}
+{Ardizzone} L, {Kruse} J, {Wirkert} S, {Rahner} D, {Pellegrini} EW, {Klessen}
+  RS, {Maier-Hein} L, {Rother} C, {K{\"o}the} U (2018) {Analyzing Inverse
+  Problems with Invertible Neural Networks}. arXiv e-prints arXiv:1808.04730,
+  \eprint{1808.04730}
+
+\bibitem[{{Asensio Ramos} and {Socas-Navarro}(2005)}]{asensio05}
+{Asensio Ramos} A, {Socas-Navarro} H (2005) {An artificial neural network
+  approach to the solution of molecular chemical equilibrium}. \aap
+  438:1021--1028, \doi{10.1051/0004-6361:20052865}, \eprint{astro-ph/0505322}
+
+\bibitem[{{Asensio Ramos} et~al.(2017){Asensio Ramos}, {Requerey}, and
+  {Vitas}}]{Asensio2017}
+{Asensio Ramos} A, {Requerey} IS, {Vitas} N (2017) {DeepVel: Deep learning for
+  the estimation of horizontal velocities at the solar surface}. \aap 604:A11,
+  \doi{10.1051/0004-6361/201730783}, \eprint{1703.05128}
+
+\bibitem[{{Asensio Ramos} et~al.(2018){Asensio Ramos}, {de la Cruz
+  Rodr{\'\i}guez}, and {Pastor Yabar}}]{DeepMFBD18}
+{Asensio Ramos} A, {de la Cruz Rodr{\'\i}guez} J, {Pastor Yabar} A (2018)
+  {Real-time, multiframe, blind deconvolution of solar images}. \aap 620:A73,
+  \doi{10.1051/0004-6361/201833648}, \eprint{1806.07150}
+
+\bibitem[{Bishop(1996)}]{B96}
+Bishop CM (1996) Neural networks for pattern recognition. Oxford University
+  Press
+
+\bibitem[{{Carroll} and {Kopf}(2008{\natexlab{a}})}]{carroll08}
+{Carroll} TA, {Kopf} M (2008{\natexlab{a}}) {Zeeman-tomography of the solar
+  photosphere. Three-dimensional surface structures retrieved from Hinode
+  observations}. \aap 481:L37--L40, \doi{10.1051/0004-6361:20079197},
+  \eprint{0803.1048}
+
+\bibitem[{{Carroll} and {Kopf}(2008{\natexlab{b}})}]{Carroll2008}
+{Carroll} TA, {Kopf} M (2008{\natexlab{b}}) {Zeeman-tomography of the solar
+  photosphere. Three-dimensional surface structures retrieved from Hinode
+  observations}. \aap 481:L37--L40, \doi{10.1051/0004-6361:20079197},
+  \eprint{0803.1048}
+
+\bibitem[{{Carroll} and {Staude}(2001)}]{Carroll2001}
+{Carroll} TA, {Staude} J (2001) {The inversion of Stokes profiles with
+  artificial neural networks}. \aap 378:316--326,
+  \doi{10.1051/0004-6361:20011167}
+
+\bibitem[{{Ciuca} et~al.(2017){Ciuca}, {Hern{\'a}ndez}, and {Wolman}}]{Ciuca17}
+{Ciuca} R, {Hern{\'a}ndez} OF, {Wolman} M (2017) {A Convolutional Neural
+  Network For Cosmic String Detection in CMB Temperature Maps}. ArXiv e-prints
+  \eprint{1708.08878}
+
+\bibitem[{{Colak} and {Qahwaji}(2008)}]{colak08}
+{Colak} T, {Qahwaji} R (2008) {Automated McIntosh-Based Classification of
+  Sunspot Groups Using MDI Images}. \solphys 248:277--296,
+  \doi{10.1007/s11207-007-9094-3}
+
+\bibitem[{{D{\'\i}az Baso} and {Asensio Ramos}(2018)}]{Enhance18}
+{D{\'\i}az Baso} CJ, {Asensio Ramos} A (2018) {Enhancing SDO/HMI images using
+  deep learning}. \aap 614:A5, \doi{10.1051/0004-6361/201731344},
+  \eprint{1706.02933}
+
+\bibitem[{Goodfellow et~al.(2016)Goodfellow, Bengio, and
+  Courville}]{Goodfellow2016}
+Goodfellow I, Bengio Y, Courville A (2016) Deep Learning. MIT Press,
+  \url{http://www.deeplearningbook.org}
+
+\bibitem[{{Illarionov} and {Tlatov}(2018)}]{Illarionov18}
+{Illarionov} EA, {Tlatov} AG (2018) {Segmentation of coronal holes in solar
+  disc images with a convolutional neural network}. \mnras 481:5014--5021,
+  \doi{10.1093/mnras/sty2628}, \eprint{1809.05748}
+
+\bibitem[{Ioffe and Szegedy(2015)}]{batch_normalization15}
+Ioffe S, Szegedy C (2015) Batch normalization: Accelerating deep network
+  training by reducing internal covariate shift. In: Blei D, Bach F (eds)
+  Proceedings of the 32nd International Conference on Machine Learning
+  (ICML-15), JMLR Workshop and Conference Proceedings, pp 448--456,
+  \urlprefix\url{http://jmlr.org/proceedings/papers/v37/ioffe15.pdf}
+
+\bibitem[{{Kingma} and {Ba}(2014)}]{adam14}
+{Kingma} DP, {Ba} J (2014) {Adam: A Method for Stochastic Optimization}. ArXiv
+  e-prints \eprint{1412.6980}
+
+\bibitem[{LeCun and Bengio(1998)}]{LeCun1998}
+LeCun Y, Bengio Y (1998) In: Arbib MA (ed) The Handbook of Brain Theory and
+  Neural Networks, MIT Press, Cambridge, MA, USA, chap Convolutional Networks
+  for Images, Speech, and Time Series, pp 255--258,
+  \urlprefix\url{http://dl.acm.org/citation.cfm?id=303568.303704}
+
+\bibitem[{LeCun et~al.(1998)LeCun, Bottou, Orr, and M\"{u}ller}]{LeCun1998b}
+LeCun Y, Bottou L, Orr GB, M\"{u}ller KR (1998) Efficient backprop. In: Neural
+  Networks: Tricks of the Trade, This Book is an Outgrowth of a 1996 NIPS
+  Workshop, Springer-Verlag, London, UK, UK, pp 9--50,
+  \urlprefix\url{http://dl.acm.org/citation.cfm?id=645754.668382}
+
+\bibitem[{Nair and Hinton(2010)}]{relu10}
+Nair V, Hinton GE (2010) Rectified linear units improve restricted boltzmann
+  machines. In: Proceedings of the 27th International Conference on Machine
+  Learning (ICML-10), June 21-24, 2010, Haifa, Israel, pp 807--814,
+  \urlprefix\url{http://www.icml2010.org/papers/432.pdf}
+
+\bibitem[{{November} and {Simon}(1988)}]{NovemberSimon_1988}
+{November} LJ, {Simon} GW (1988) {Precise Proper-Motion Measurement of Solar
+  Granulation}. \apj 333:427, \doi{10.1086/166758}
+
+\bibitem[{{Osborne} et~al.(2019){Osborne}, {Armstrong}, and
+  {Fletcher}}]{osborne2019}
+{Osborne} CMJ, {Armstrong} JA, {Fletcher} L (2019) {RADYNVERSION: Learning to
+  Invert a Solar Flare Atmosphere with Invertible Neural Networks}. arXiv
+  e-prints arXiv:1901.08626, \eprint{1901.08626}
+
+\bibitem[{Peyrard et~al.(2015)Peyrard, Mamalet, and Garcia}]{Peyrard15}
+Peyrard C, Mamalet F, Garcia C (2015) A comparison between multi-layer
+  perceptrons and convolutional neural networks for text image
+  super-resolution. In: Braz J, Battiato S, Imai FH (eds) VISAPP (1),
+  SciTePress, pp 84--91
+
+\bibitem[{Rumelhart et~al.(1988)Rumelhart, Hinton, and
+  Williams}]{Rumelhart1988}
+Rumelhart DE, Hinton GE, Williams RJ (1988) Neurocomputing: Foundations of
+  research. MIT Press, Cambridge, MA, USA, chap Learning Representations by
+  Back-propagating Errors, pp 696--699,
+  \urlprefix\url{http://dl.acm.org/citation.cfm?id=65669.104451}
+
+\bibitem[{{Schawinski} et~al.(2017){Schawinski}, {Zhang}, {Zhang}, {Fowler},
+  and {Santhanam}}]{schawinski17}
+{Schawinski} K, {Zhang} C, {Zhang} H, {Fowler} L, {Santhanam} GK (2017)
+  {Generative adversarial networks recover features in astrophysical images of
+  galaxies beyond the deconvolution limit}. \mnras 467:L110--L114,
+  \doi{10.1093/mnrasl/slx008}, \eprint{1702.00403}
+
+\bibitem[{{Schmidhuber}(2014)}]{Overview2014}
+{Schmidhuber} J (2014) {Deep Learning in Neural Networks: An Overview}. ArXiv
+  e-prints \eprint{1404.7828}
+
+\bibitem[{{Simonyan} and {Zisserman}(2014)}]{veryDeep2014}
+{Simonyan} K, {Zisserman} A (2014) {Very Deep Convolutional Networks for
+  Large-Scale Image Recognition}. ArXiv e-prints \eprint{1409.1556}
+
+\bibitem[{{Socas-Navarro}(2003)}]{socas_nn_03}
+{Socas-Navarro} H (2003) {Measuring Solar Magnetic Fields with Artificial
+  Neural Networks}. Neural Networks 16:355
+
+\bibitem[{{Socas-Navarro}(2005{\natexlab{a}})}]{socas05}
+{Socas-Navarro} H (2005{\natexlab{a}}) {Strategies for Spectral Profile
+  Inversion Using Artificial Neural Networks}. \apj 621:545--553,
+  \doi{10.1086/427431}, \eprint{astro-ph/0410567}
+
+\bibitem[{{Socas-Navarro}(2005{\natexlab{b}})}]{socas_nn_05}
+{Socas-Navarro} H (2005{\natexlab{b}}) {Strategies for Spectral Profile
+  Inversion Using Artificial Neural Networks}. \apj 621:545--553,
+  \doi{10.1086/427431}, \eprint{astro-ph/0410567}
+
+\bibitem[{{V{\"o}gler} et~al.(2005){V{\"o}gler}, {Shelyag}, {Sch{\"u}ssler},
+  {Cattaneo}, {Emonet}, and {Linde}}]{vogler05}
+{V{\"o}gler} A, {Shelyag} S, {Sch{\"u}ssler} M, {Cattaneo} F, {Emonet} T,
+  {Linde} T (2005) {Simulations of magneto-convection in the solar photosphere.
+  Equations, methods, and results of the MURaM code}. \aap 429:335--351,
+  \doi{10.1051/0004-6361:20041507}
+
+\end{thebibliography}

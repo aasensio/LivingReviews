@@ -119,11 +119,12 @@ The field of Solar Physics has been historically
 
 Principal Components Analysis (PCA; see Loève 1955), also known as
 Karhunen-Lo\`ève transformation, is an algorithm used in multivariate statistics.
-Briefly, it is used to obtain a self-consistent basis on which the data can be efficiently 
-developed. This basis has the property that the largest amount of variance is explained with 
+Briefly, its main use is to obtain a self-consistent orthogonal basis on which 
+the data can be efficiently developed. This basis has the property that the 
+largest amount of variance is explained with 
 the least number of basis vectors. It is useful to reduce the dimensionality of data sets 
-that depend on a very large number of parameters. This property has been used for 
-denoising purposes.
+that depend on a very large number of parameters and one of its most
+straightforward applications is denoising.
 For simplicity, we focus from on the problem of polarised spectra. When a spectrograph is used to observe a spectral line formed in a stellar atmosphere, it is sampled at a finite number of wavelengths, a number that depends on the spectral resolu- tion of the instrumental setup. However, this number is usually much larger than the number of physical variables involved in the spectral line formation mechanism (Asensio Ramos et al. 2007). Moreover, if we observe the full Stokes vector, the num- ber of wavelengths increases by a factor of 4, while the num- ber of physical parameters typically increases more slowly. It is easy to understand that correlations between the observables ex- ist. This is related to the fact that the presence of physical laws constrain the possible values that any observable can take. For instance, all the wavelength points tracing the continuum away from spectral lines provide roughly the same information about the physical conditions. Since the stellar continuum is typically formed in local thermodynamic equilibrium conditions, it can be characterized by a Planck function at a given temperature. Therefore, all the wavelength points are linked by the functional form of the Planck function.
 Due to these intrinsic correlations that exist in the observ- ables, when a spectral line is observed many times, or, in our case, several spectral lines are observed simultaneously, the cloud of points that represents all spectral lines in the multi- dimensional space of the observables will be elongated in some directions. These directions are the so-called principal compo- nents and the data can be efficiently reproduced as a linear com- bination of vectors along them.
 
@@ -152,7 +153,7 @@ They are constructed by putting together many basic fundamental structures (call
 and connecting them massively. Each neuron $i$ is only able to carry out a very basic operation
 on the input vector: it multiplies all the input values $x_j$ by some weights $w_j$, 
 adds some bias $b_i$ and finally returns the value of a certain user-defined
-nonlinear activation function $f(x)$. In mathematical notation, a neuron computes: 
+nonlinear activation function $f(x)$. In mathematical notation, a neuron computes:
 \begin{equation}
 o_i = f(\Sigma_j\,x_j\cdot w_j + b_i).
 \end{equation}
@@ -257,6 +258,9 @@ As each neuron has to be connected with the whole input, if we add a new neuron 
 This constituted an
 apparently unsurmountable handicap that was only solved with the
 appearance of convolution neural networks \cite[CNN or ConvNets;][]{LeCun1998}.
+
+
+
 
 The most important ingredient in the CNN is the convolutional layer which is composed of
 several convolutional neurons. Each CNN-neuron carries out the convolution of the input with a certain
